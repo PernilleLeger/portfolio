@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	color: white;
+	
+}
+body {
+	background-color: #97B8C2;
+	background-repeat: no-repeat;
+    background-position: right top;
+	
+}
+.wrapper {
+		display: flex; 
+		flex-wrap: wrap;
+		width: 99%; 
+		justify-content: space-around;
+		margin-left: auto;
+		margin-right: auto;		
+}
+
+.header {
+    background-color: #D35C37;
+    text-align: left;
+	width: 99%;
+	font-family: 'Helvetica Neue bold', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.pernille {
+	text-decoration: none;
+	font-size: 80px;
+	padding: 2%;
+}
+
+/*container*/
+#topnav {
+    float: right;
+    background-color: #97B8C2;
+	text-align: right;
+	margin-left: 1100px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+/*links*/
+#topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*change color*/
+#topnav a:hover {
+    background-color: #97B8C2;
+    color: white;
+}
+.background {
+	margin-bottom: 5%;
+}
+
+.aboutoverskrift {
+	width: 99%;	
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family:'Helvetica Neue bold', sans-serif;
+}
+
+.profilpicrow {
+	width: 100%;
+}
+
+.profilpic {
+	float: left;
+    width: 49%;
+	
+}
+
+.text {
+	float: right;
+	width: 49%;
+	font-size: 20px;
+	font-family: 'News Cycle', sans-serif;
+	margin-bottom: 5%;
+	display: block;
+	top: 2500px;
+	margin-top: 5%;
+}
+
+.workoverskrift {
+	width: 99%;	
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family:'Helvetica Neue bold', sans-serif;
+	margin-top: 4%;
+}
+
+.imgoverskrift {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bolder;
+	margin-top: -20%;
+	text-decoration: none;	
+	
+}
+
+.picturerow {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.picture {
+    float: left;
+	width: 25%;
+    padding: 1%; 
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-left: 6%;
+	justify-content: center;
+	
+}
+
+.contactoverskrift {
+	width: 99%;	
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family:'Helvetica Neue bold', sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 2px solid #D35C37; 
+    border-radius: 7px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* distance between the boxes*/
+    margin-bottom: 16px; /* distance between the boxes */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #D35C37;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+	margin-bottom: 10%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #D6C6B9;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #97B8C2;
+    padding: 20px;
+	width: 50%;
+}
+
+.footer {
+    background-color: #D6C6B9;
+    padding: 10px;
+    text-align: center;
+	width: 99%;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+	
+}
+.instagram {
+	text-decoration: none;
+}
+
+
+
+
